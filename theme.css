@@ -52,3 +52,6 @@ li{
 .item-1 b{
     color: var(--humid);
 }
+#sunrise{
+    color: var(--humid);
+}
