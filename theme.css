@@ -1,0 +1,54 @@
+.theme-light{
+    --primary: white;
+    --temp: rgb(247 244 244);
+    --humid:black;
+    --sun:rgb(247 244 244);
+
+}
+
+.theme-dark{
+    --primary: rgb(5, 4, 4);
+    --temp: rgb(33, 28, 28);
+    --humid:rgb(218, 205, 205);
+    --sun:rgb(33, 28, 28);
+}
+
+
+body{
+    background: var(--primary);
+}
+
+.con-1{
+    background: var(--primary);
+}
+
+
+.item-2{
+    background: var(--temp);
+}
+
+
+.item-3-1{
+    background: var(--humid);
+}
+
+.item-3-2{
+    background: var(--sun);
+}
+
+.item-3-1 li{
+    color: var(--primary);
+}
+
+h2{
+    color: var(--humid);
+}
+h1{
+    color: var(--humid);
+}
+li{
+    color: var(--humid);
+}
+.item-1 b{
+    color: var(--humid);
+}
